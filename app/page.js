@@ -2,6 +2,7 @@
 
 import React from "react";
 import ChatBox from "./component/ChatBox";
+import LandingPage from "./component/LandingPage";
 
 export default function Home() {
   const initialMessages = [
@@ -12,8 +13,8 @@ export default function Home() {
   ];
 
   return (
-    <div>
-      <ChatBox initialMessages={initialMessages}/>
-    </div>
+    <>
+      <LandingPage />
+    </>
   );
 }
